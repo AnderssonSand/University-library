@@ -1,0 +1,168 @@
+{
+  "library": [
+    {
+      "title": "Sapiens: En kort historik över mänskligheten",
+      "author": "Yuval Noah Harari",
+      "publication_year": 2014,
+      "genre": "Facklitteratur",
+      "image_url": "https://m.media-amazon.com/images/I/41gN0Tyw0eL._SY445_SX342_.jpg",
+      "desc": "A thought-provoking exploration of human history, tracing the evolution of Homo sapiens from ancient times to the present day."
+    },
+    {
+      "title": "Djurfarmen",
+      "author": "George Orwell",
+      "publication_year": 1945,
+      "genre": "Skönlitteratur",
+      "image_url": "https://m.media-amazon.com/images/I/71IH4ce6EGL._SY522_.jpg",
+      "desc": "A classic allegory satirizing totalitarianism, where farm animals rebel against their human farmer in pursuit of equality."
+    },
+    {
+      "title": "Kvinnorna på Slottet",
+      "author": "Jessica Shattuck",
+      "publication_year": 2017,
+      "genre": "Skönlitteratur",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1472678686i/30653967.jpg",
+      "desc": "Set against the backdrop of World War II, the novel explores the lives of three women with different perspectives the war."
+    },
+    {
+      "title": "I am Malala",
+      "author": "Malala Yousafzai",
+      "publication_year": 2013,
+      "genre": "Biografi",
+      "image_url": "https://images.thenile.io/r1000/9781780226583.jpg",
+      "desc": "The inspiring autobiography of Malala Yousafzai, a Pakistani girl who stood up for education and women's rights despite adversity."
+    },
+    {
+      "title": "The Periodic Table",
+      "author": "Primo Levi",
+      "publication_year": 1971,
+      "genre": "Memoarer",
+      "image_url": "https://m.media-amazon.com/images/I/61kRb-zHEbL._SY522_.jpg",
+      "desc": "A unique memoir that interweaves personal experiences with reflections on science, told through the lens of the periodic table."
+    },
+    {
+      "title": "Med kallt blod",
+      "author": "Truman Capote",
+      "publication_year": 1966,
+      "genre": "True Crime",
+      "image_url": "https://media.bonnierforlagen.se/bokbilder/b/9789100177317.jpg?timestamp=20180312095149",
+      "desc": "A groundbreaking true crime novel recounting the brutal murder of the Clutter family in Kansas and its aftermath."
+    },
+    {
+      "title": "Stoner",
+      "author": "John Williams",
+      "publication_year": 1965,
+      "genre": "Skönlitteratur",
+      "image_url": "https://m.media-amazon.com/images/I/81jL5RHYUHL._SY522_.jpg",
+      "desc": "A quietly powerful novel that follows the life of an unassuming man, William Stoner, as he navigates love and academia."
+    },
+    {
+      "title": "Inte ett farväl",
+      "author": "Mary Higgins Clark",
+      "publication_year": 2020,
+      "genre": "Deckare",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1457022523i/29154543.jpg",
+      "desc": "A gripping detective novel where unexpected twists and turns keep readers on the edge of their seats."
+    },
+    {
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "publication_year": 2011,
+      "genre": "Biografi",
+      "image_url": "https://m.media-amazon.com/images/I/81yP+dpbmeL._SY522_.jpg",
+      "desc": "The definitive biography of Apple co-founder Steve Jobs, providing insights into his visionary of iconic products."
+    },
+    {
+      "title": "Svärdet och spiran",
+      "author": "Ken Follett",
+      "publication_year": 2007,
+      "genre": "Historisk roman",
+      "image_url": "https://static.boktipset.se/images/content/A/CP/CPkOMhBNl3EmQCNESo82Dg.jpg",
+      "desc": "Set in medieval England, this historical novel weaves a tale of love, politics, and the construction of a cathedral."
+    },
+    {
+      "title": "Stäppvargen",
+      "author": "Hermann Hesse",
+      "publication_year": 1927,
+      "genre": "Filosofisk roman",
+      "image_url": "https://media.bonnierforlagen.se/bokbilder/tif/9789100109127.jpg?timestamp=20160307042105",
+      "desc": "A philosophical novel that delves into the inner struggles and spiritual journey of a man named Harry Haller."
+    },
+    {
+      "title": "Världsomseglingen under havet",
+      "author": "Jules Verne",
+      "publication_year": 1870,
+      "genre": "Äventyr",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1600337126i/41027243.jpg",
+      "desc": "A classic adventure novel that takes readers on an underwater journey with Captain Nemo aboard the Nautilus."
+    },
+    {
+      "title": "Matilda",
+      "author": "Roald Dahl",
+      "publication_year": 1988,
+      "genre": "Barnlitteratur",
+      "image_url": "https://m.media-amazon.com/images/I/81EFX8e30jL._SY522_.jpg",
+      "desc": "A whimsical and heartwarming children's novel about a young girl named Matilda who discovers her extraordinary talents."
+    },
+    {
+      "title": "Hundraåringen som klev ut genom fönstret och försvann",
+      "author": "Jonas Jonasson",
+      "publication_year": 2009,
+      "genre": "Humoristisk roman",
+      "image_url": "https://m.media-amazon.com/images/I/51mvcSnIKFL._AC_UF1000,1000_QL80_.jpg",
+      "desc": "A comical adventure that follows the escapades of Allan Karlsson, a centenarian with into extraordinary situations."
+    },
+    {
+      "title": "Galápagos",
+      "author": "Kurt Vonnegut",
+      "publication_year": 1985,
+      "genre": "Science Fiction",
+      "image_url": "https://m.media-amazon.com/images/I/71B68jttiYL._SL1500_.jpg",
+      "desc": "A philosophical novel that delves into the inner struggles and spiritual journey of a man named Harry Haller."
+    },
+    {
+      "title": "Det röda tältet",
+      "author": "Anita Diamant",
+      "publication_year": 1997,
+      "genre": "Historisk roman",
+      "image_url": "https://antikvariat.hstrom.se/import/bokbilder/4643201.jpg",
+      "desc": "A thought-provoking exploration of human history, tracing the evolution of Homo sapiens from ancient times to the present day."
+    },
+    {
+      "title": "De Kommer att drunkna i sina mödrars tårar",
+      "author": "Johannes Anyuru",
+      "publication_year": 2012,
+      "genre": "Skönlitteratur",
+      "image_url": "https://m.media-amazon.com/images/I/81JQ6U+z3pL._SY522_.jpg",
+      "desc": "A philosophical novel that delves into the inner struggles and spiritual journey of a man named Harry Haller."
+
+    },
+    {
+      "title": "Skriet från vildmarken",
+      "author": "Jack London",
+      "publication_year": 1903,
+      "genre": "Äventyr",
+      "image_url": "https://boktugg.imgix.net/9789129659023.jpg",
+      "desc": "Set against the backdrop of World War II, the novel explores the lives of three women with perspectives the war."
+    },
+    {
+      "title": "Factfulness",
+      "author": "Hans Rosling",
+      "publication_year": 2018,
+      "genre": "Facklitteratur",
+      "image_url": "https://bilder.akademibokhandeln.se/images_akb/9789127163287_383/factfulness-tio-knep-som-hjalper-dig-forsta-varlden",
+      "desc": "A philosophical novel that delves into the inner struggles and spiritual journey of a man named Harry Haller."
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "publication_year": 1847,
+      "genre": "Klassisk roman",
+      "image_url": "https://m.media-amazon.com/images/I/51SOA0Q3BEL._SY522_.jpg",
+      "desc": "The definitive biography of Apple co-founder Steve Jobs, providing insights into his visionary of iconic products."
+    }
+
+
+
+    ]
+  }

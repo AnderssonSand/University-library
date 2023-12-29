@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="TSI Universitetets bibliotek där du kan låna studiematerial och ta del av Universitetets sociala event och nätverk."
+        />
+        <meta
+          name="keywords"
+          content="bibliotek, universitet, låna, böcker, kurslitteratur, student"
+        />
+        <meta name="author" content="TSI Universitetet" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="library.css" />
+        <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet" />
+        <title>Biblioteket TSI</title>
+        <link rel="shortcut icon" href="/images/favicon.png" />
+        <script src="./script.js" defer></script>
+      </head>
+<body>
+    <main>
+        <div class="row row-nav">
+            <nav class="navbar navbar-expand-lg grid-nav">
+                <div class="container-fluid">
+                  <a class="navbar-brand m-3" href="./index.html"
+                    ><img
+                      src="./images/logga-gul.png"
+                      style="height: 120px; width: 160px"
+                      alt="TSI universitets logo in yellow"
+                  /></a>
+                  <div>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"> </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active link-anim"
+                            aria-current="page"
+                            href="#"
+                            >Kontakt</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active link-anim"
+                            aria-current="page"
+                            href="#"
+                            >Mötesrum</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active link-anim"
+                            aria-current="page"
+                            href="#"
+                            >Böcker</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active link-anim"
+                            aria-current="page"
+                            href="#"
+                            >Låna</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active link-anim"
+                            aria-current="page"
+                            href="#"
+                            >Kalendarium</a
+                          >
+                        </li>
+                      </ul>
+                      <button class="btn" type="submit">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="25"
+                          height="25"
+                          fill="currentColor"
+                          class="bi bi-search"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <section class="row row-search mb-5">
+            <div class="search-container py-5 ps-2">
+                <form role="search">
+                  <div class="input-group rounded">
+                    <div class="title-container">
+                      <label for="searchInput" class="form-label h3 m-3"
+                        >Sök i biblioteket</label
+                      >
+                    </div>
+    
+                    <input
+                      type="search"
+                      class="form-control rounded m-3"
+                      placeholder="Sök efter böcker, filmer, musik och annat…"
+                      aria-label="Search"
+                      id="searchInput"
+                    />
+                    <div class="m-3">
+                      <button class="btn form-btn" type="submit">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="30"
+                          fill="white"
+                          class="bi bi-search mb-1"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+        </section>
+        <section class="container">
+            <div class="row d-flex justify-content-center" id="books-container"></div>
+          </section>
+
+
+        <section class="row row-form">
+            <div class="col-sm-6 add-book-image"></div>
+            <div class="col-sm-6 px-0">
+                <div class="form-container px-5 py-5 d-flex justify-content-center">
+                    <div class="form-wrapper">
+                    <h2 class="h2-add-book">Vill du låna ut dina böcker till andra genom skolans bibliotek?</h2>
+                        <p>Har du en bok i bokhyllan som du redan har läst och inte längre behöver? Lägg till en bok i skolans bibliotek så andra kan ta del av mer kunskap!</p>
+                
+                        <form id="book-form">
+                            <div class="mb-3">
+                              <input type="text" id="title" name="title" placeholder="Titel" required>
+                            </div>
+                            <div class="mb-3">
+                              <input  type="text" id="author" name="author" placeholder="Författare" required >
+                            </div>
+                            <div class="mb-3">
+                              <input type="number" id="publication-year" name="publication-year" placeholder="Publiceringsår" required >
+                            </div>
+                            <div class="mb-3">
+                              <label  class="form-label">Beskrivning:</label>
+                              <textarea class="form-control " id="description" name="description" row="3" required >
+            
+                              </textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" id="image-url" name="image-url" placeholder="Bildlänk till omslag (http://...)" required >
+                              </div>
+                          
+                          
+                          <div class="mb-3">
+                            <label  class="form-label">Genre:</label>
+                            <select class="form-select" id="inputGroupSelect02" required>
+                              <option disabled selected value>Välj genre...</option>
+                              <option value="roman">Roman</option>
+                            <option value="fiction">Sjönlitterärt</option>
+                            <option value="fantasy">Fantasy</option>
+                            </select>
+                          </div>
+              
+                          <button id="add-book" type="submit" class="btn form-button">Lägg till bok</button>
+                          <p id="submitMessage"></p>
+                        </form>
+                    </div>
+                
+                    </div>
+            </div>
+            
+        </section>
+
+        <footer class="row row-footer mt-4 d-flex justify-content-around align-items-center flex-wrap p-4 gap-4">
+            <div class="footer-container">
+                <div class="logo-container-footer">
+                  <img
+                    class="m-3"
+                    src="./images/logga-grå.png"
+                    style="width: 150px"
+                    alt="TSI universitet logo in grey"
+                  />
+                </div>
+                <div class="footer-links-container">
+                  <ul class="nav flex-column footer-links-left">
+                    <li class="nav-item">
+                      <a class="nav-link link-light foot-anim" href="#"
+                        >Om universitetet</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-light foot-anim" href="#">Mötesrum</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-light foot-anim" href="#">Böcker</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-light foot-anim" href="#">Låna</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-light foot-anim" href="#">Aktuellt</a>
+                    </li>
+                  </ul>
+                  <ul class="nav flex-column footer-links-right">
+                    <li class="nav-item">
+                      <a class="nav-link foot-anim" href="#">Student</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link foot-anim" href="#">Kalendarium</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link foot-anim long" href="#"
+                        >Databaser & tidsskrifter</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link foot-anim" href="#">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link foot-anim" href="#">Hitta hit</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="address-container">
+                  <p class="address mx-3">
+                    Magasinsgatan 5<br />
+                    55 444 Göteborg<br />
+                    Sverige<br />
+                    +46 55 44 04 05 00
+                  </p>
+                </div>
+                <ul class="nav social-container">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><img
+                        src="./images/facebook-white.png"
+                        alt="facebook"
+                        style="width: 20px"
+                    /></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><img
+                        src="./images/twitter-white.png"
+                        alt="twitter"
+                        style="width: 20px"
+                    /></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><img
+                        src="./images/linkedin-white.png"
+                        alt="linkedin"
+                        style="width: 20px"
+                    /></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><img
+                        src="./images/instagram-white.png"
+                        alt="instagram"
+                        style="width: 20px"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+        </footer>
+
+
+    </main>
+    
+</body>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"
+></script>
+<script
+src="https://kit.fontawesome.com/e9bbc11817.js"
+crossorigin="anonymous"
+></script>
+</html>
