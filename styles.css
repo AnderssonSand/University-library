@@ -393,7 +393,7 @@ display: none !important;
  
  .grid-header{
   height: 500px !important;
-  background-image: url('/images/header-mobile.png');
+  background-image: url('./images/header-mobile.png');
  }
 
 .card-img {
